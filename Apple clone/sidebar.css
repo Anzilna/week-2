@@ -1,0 +1,80 @@
+.sidebar{
+    width: 200px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    background-color: rgb(243, 243, 243);
+    border-right-style: solid;
+border-width: 0.1px;
+border-color:rgb(224, 224, 224);
+z-index: 101;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.side-element1{
+display: flex;
+margin-top: 4px;
+cursor: pointer;
+}
+.side-element11
+{
+width: 22px;
+padding-bottom: 14px;
+}
+.side-element2{
+justify-content: center;
+flex-direction: column;
+margin-top: 4px;
+position: relative;
+}
+
+.search-icon{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    margin-right: 10px;
+}
+
+
+.side-element1 p{
+
+font-weight: 500;
+font-size: 28px;
+}
+.search-bar{
+    flex: 1;
+    height: 33px;
+    padding-left: 30px;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(218, 217, 217);
+    border-radius: 5px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+width: 150px;
+}
+.search-bar::placeholder{
+ 
+font-family: roboto,arial;
+
+
+}
+.middle-sidebar{
+    margin-top: 30px;
+}
+.middle-sidebar-elements{
+    padding-bottom: 5px;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+.middle-sidebar-icons{
+    margin-right: 8px;
+}
+.middle-sidebar-elements:hover{
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
+}

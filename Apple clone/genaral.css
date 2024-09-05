@@ -1,0 +1,157 @@
+main{
+    padding-left: 215px;
+    padding-top: 50px;
+    position: relative;
+    height: 1100px;
+}
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.px-wide{
+width: 800px;
+margin-left: 300px;
+margin-top: 80px;
+height: 200px;
+}
+@media (max-width:1360px) {
+    .px-wide{
+        width: 400px;
+        margin-left:0px;
+        margin-top: 0px;
+        }  
+}
+.p{
+    font-family: roboto,arial;
+   margin: 0;
+}
+.browse{
+    padding-bottom: 0px;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-style: solid;
+    border-bottom-width:0.1px ;
+    border-color: rgb(224, 224, 224);
+}
+
+.browse2{
+
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    padding-top: 20px;
+}
+.container{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+  
+    white-space: nowrap;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+     cursor: pointer;
+     max-width: 450px;
+}
+.thumnail-photo
+{
+    width: 200px;
+    border-radius: 9px;
+    flex: 1;
+    max-width: 600px;
+   
+}
+.thumnail-text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1 fr;
+    
+}
+.thumnail{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play-button-insidethumb{
+    position: absolute;
+    
+}
+.play-button{
+    color: white;
+    font-family: roboto,arial;
+    border-radius: 8px;
+    font-size: 35px;
+    border-style: none;
+    background-color:#d60017 ;
+    padding: 4px 15px;
+    opacity: 0;
+}
+.play-button:hover{
+    opacity: 0.78;
+}
+
+.thumnail-photo:hover{
+    opacity: 0.70;
+}
+.main{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
+.main2{
+display: grid;
+
+}
+@media (max-width:960px) {
+    .main{
+     
+        grid-template-columns: 1fr;
+       max-width: 400px;
+    }
+}
+@media (min-width:961px) {
+    .main{
+     
+        grid-template-columns: 1fr 1fr 1fr;
+       
+    }
+}
+.font-style1{
+    font-family: roboto,arial;
+    color:  #0000008f;
+    font-size: 11px;
+}
+.font-style2{
+    font-family: roboto,arial;
+    color: rgb(43, 42, 42);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.font-style3{
+    font-family: roboto,arial;
+    color: #0000008f;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.navbar-brand{
+    text-transform: uppercase
+}
+.c-item{
+    height: 500px;
+}
+.c-img{
+height: 100%;
+filter: brightness(0.6);
+}
+.Lltest-song{
+margin-bottom: 30px;
+margin-top: 50px;
+}
